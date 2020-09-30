@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@drawable/download" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:onClick="count1"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="balls"
+        android:onClick="count2"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="235dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="overs"
+        android:onClick="count3"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:id="@+id/counter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/counter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="220dp"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/counter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+
+
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wide"
+        android:onClick="count4"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:id="@+id/counter4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="430dp"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wickets"
+        android:onClick="count6"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/counter6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="380dp"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="count5"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="00dp"
+        android:layout_marginTop="0dp"
+        android:text="Palgula Cricket"
+        android:textColor="?android:attr/textColorLinkInverse"
+        android:textSize="50dp" />/>
+
+
+</RelativeLayout>
